@@ -61,7 +61,7 @@ int main(int argc, char* argv[]){
 
     FILE* file = fopen(argv[2], "r");
     if(!file){
-        printf("Unable to open %s\n", argv[1]);
+        printf("Unable to open %s\n", argv[2]);
         exit(1);
     }
     char line[PROC_NAME];

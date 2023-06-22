@@ -9,3 +9,5 @@ Onde "n" é a flag para execução normal do Escalonador e "process.txt" é o ar
 ```
 
 Onde "r" é a flag para roubou de trabalho (work stealing).
+
+Ao final da execução do Escalonador é mostrado o Makespan da Aplicação e à medida que os processos auxiliares terminam é mostrado o tempo de execução que cada processo auxiliar necessitou.
